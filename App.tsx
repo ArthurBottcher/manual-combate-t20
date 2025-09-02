@@ -172,7 +172,7 @@ function App() {
       <Toaster richColors theme="dark" position="bottom-right" />
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-8">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 font-serif">Manual de Combate e Ações T20</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-yellow-500 bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 font-serif">Manual de Combate e Ações T20</h1>
           <p className="text-gray-400 mt-2">Organize suas ações e poderes de Tormenta 20 para cada situação de combate.</p>
         </header>
 
