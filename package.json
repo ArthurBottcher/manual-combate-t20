@@ -1,13 +1,11 @@
 {
-  "name": "manual-de-combate-e-ações-t20",
+  "name": "ManualCombateT20",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "preinstall": "node preinstall.js"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@google/genai": "^1.16.0",
