@@ -38,8 +38,8 @@ const ConfirmationDialog: React.FC<ConfirmationDialogProps> = ({
           <AlertDialogDescription className="text-gray-400 pt-2">{description}</AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter className="mt-4 sm:justify-start">
-          <AlertDialogAction asChild><Button variant="destructive" onClick={onConfirm}>{confirmText}</Button></AlertDialogAction>
-          <AlertDialogCancel asChild><Button variant="outline" onClick={onClose}>{cancelText}</Button></AlertDialogCancel>
+          <AlertDialogAction className='bg-destructive text-white hover:bg-destructive/90' onClick={onConfirm}>{confirmText}</AlertDialogAction>
+          <AlertDialogCancel  className='text-black bg-neutral-100 hover:bg-neutral-200' onClick={onClose}>{cancelText}</AlertDialogCancel>
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialog>
